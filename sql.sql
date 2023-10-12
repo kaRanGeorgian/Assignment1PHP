@@ -1,0 +1,8 @@
+CREATE DATABASE assignment;
+USE assignment;
+
+CREATE TABLE content (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    content_text TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
